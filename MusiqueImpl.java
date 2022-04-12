@@ -7,14 +7,34 @@ public class MusiqueImpl implements Musique{
 	public String getTitre() {
 		return titre;
 	}
+	
+	public void setTitre(String titre){
+		this.titre=titre;
+	}
 
 	public String getAuteur() {
 		return auteur;
+	}
+	
+	public void setAuteur(String auteur){
+		this.auteur=auteur;
 	}
 
 	public String getGenre() {
 		return genre;
 	}
+	
+	public void setGenre(String genre){
+		this.genre=genre;
+	}	
+	
+	public String getInterprete() {
+		return interprete;
+	}
+	
+	public void setInterprete(String interprete){
+		this.interprete=interprete;
+	}	
 
 	
 public MusiqueImpl(String titre, String auteur, String genre, String interprete) {
