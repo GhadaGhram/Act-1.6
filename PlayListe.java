@@ -1,4 +1,4 @@
 public interface PlayListe {
 	public abstract void afficherPlayListe();
-   	void ajouterPlayListe(MusiqueImpl music);
+   	public void ajouterPlayListe(MusiqueImpl music);
 }
