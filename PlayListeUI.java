@@ -1,8 +1,4 @@
-package Streaming;
-
 import java.util.ArrayList;
-
-
 public class PlayListeUI {
 
 	public static void main(String[] args) {
