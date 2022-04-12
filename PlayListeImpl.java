@@ -1,16 +1,11 @@
-package Streaming;
-
 import java.util.ArrayList;
-
 public class PlayListeImpl implements PlayListe {
-
 final int MAX_MUSIQUES=3;
 private String nomMusique;
 private String genreMusique;
 private int nombreTitresMusique;
+
 ArrayList<MusiqueImpl> playliste=new ArrayList<MusiqueImpl>();
-
-
 
 public PlayListeImpl(String nomMusique, String genreMusique, int nombreTitresMusique,
 		ArrayList<MusiqueImpl> playliste) {
