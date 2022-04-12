@@ -1,5 +1,3 @@
-package Streaming;
-
 public class MusiqueImpl implements Musique{
 	private String titre;
 	private String auteur;
@@ -19,7 +17,7 @@ public class MusiqueImpl implements Musique{
 	}
 
 	
-		public MusiqueImpl(String titre, String auteur, String genre, String interprete) {
+public MusiqueImpl(String titre, String auteur, String genre, String interprete) {
 		this.titre = titre;
 		this.auteur = auteur;
 		this.genre = genre;
@@ -27,18 +25,18 @@ public class MusiqueImpl implements Musique{
 	}
 
 
-	@Override
-		public String toString() {
+@Override
+public String toString() {
 			return "MusiqueImpl [titre=" + titre + ", auteur=" + auteur + ", genre=" + genre + ", interprete="
 					+ interprete + "]";
 		}
 
-	@Override
-	public void afficher() {
+@Override
+public void afficher() {
 			System.out.println(toString());
 	}
-	@Override
-	public void verifEgale(MusiqueImpl music1,MusiqueImpl music2) {
+@Override
+public void verifEgale(MusiqueImpl music1,MusiqueImpl music2) {
 			if((music1.getTitre()).equals(music2.getTitre())
 			& (music1.getAuteur()).equals(music2.getAuteur())
 			& (music1.getGenre()).equals(music2.getGenre()))
